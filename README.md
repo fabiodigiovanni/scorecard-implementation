@@ -1,41 +1,12 @@
-# scorecard-implementation
+# Credit Risk Modeling & Scorecard Development
+A comprehensive credit risk model and scorecard using data from Lending Club
 
-This project showcases a complete pipeline for credit risk modelling, combining traditional scorecard development with modern machine learning techniques. It includes all steps from data preprocessing to model evaluation and scorecard generation.
-
-## Overview
-
-The goal is to predict the probability of default using both interpretable and high-performing models. This is achieved by developing a logistic regression-based credit scorecard and comparing it with more advanced machine learning models.
-
-## Key Features
-
-- Data preprocessing and exploratory data analysis (EDA)
-- Feature binning and Weight of Evidence (WOE) transformation using `toad`
-- Credit scorecard development with logistic regression
-- Machine learning models: Random Forest, XGBoost
-- ROC-AUC analysis and performance comparison
-- Scorecard export and interpretability
-
-## Technologies Used
-
-- Python, pandas, numpy, scikit-learn
-- toad, xgboost, keras (TensorFlow backend)
-- Matplotlib, seaborn, hvplot for visualization
+Medium article explaining the model can be found [here]([[https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-91335fc01f03?source=friends_link&sk=473eece07f71357852e91e3aa650294f](https://medium.com/@fabiodigiovanni97/mastering-credit-scorecard-development-part-1-a-theoretical-guide-1de33a66c2fd)](https://medium.com/@fabiodigiovanni97/mastering-credit-scorecard-development-part-1-a-theoretical-guide-1de33a66c2fd))
 
 ## Folder Structure
 
 - `scorecard_implementation.ipynb`: Main notebook with full implementation
-- `data/`: (Optional) Folder for datasets used in the project
-- `output/`: (Optional) Folder for model exports or plots
-
-## How to Run
-
-1. Clone the repository
-2. Install dependencies using `pip install -r requirements.txt`
-3. Open the notebook and run all cells
-
-## License
-
-This project is licensed under the MIT License.
+- `scorecard.csv`: Exported scorecard containing the WOE-binned variables, scores per bin, and the final credit scoring table
 
 ---
 
