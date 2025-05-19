@@ -1,4 +1,4 @@
-# Credit Risk Modeling & Scorecard Development
+# Credit Risk Scorecard Development
 A comprehensive credit risk model and scorecard using data from Lending Club
 
 Medium article explaining the model can be found [here](https://medium.com/@fabiodigiovanni97/mastering-credit-scorecard-development-part-1-a-theoretical-guide-1de33a66c2fd)
