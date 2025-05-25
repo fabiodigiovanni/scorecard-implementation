@@ -6,7 +6,7 @@ Medium article explaining the model can be found [here](https://medium.com/@fabi
 ## Folder Structure
 
 - `scorecard_implementation.ipynb`: Main notebook with full implementation
-- `scorecard.csv`: Exported scorecard containing the WOE-binned variables, scores per bin, and the final credit scoring table
+- `scorecard.csv`: Exported scorecard containing the scores per bin.
 
 ---
 
